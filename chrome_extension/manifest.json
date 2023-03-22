@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Twitter Filter",
+    "version": "1.0",
+    "description": "A Chrome extension to filter tweets based on a regular expression",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://twitter.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitter Filter Regex</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans-serif;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      h1 {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 20px;
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      textarea {
+        width: 400px;
+        height: 100px;
+        padding: 1px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        /* resize: none; */
+        margin-bottom: 20px;
+      }
+      button {
+        display: block;
+        width: 100%;
+        max-width: 200px;
+        margin: 0 auto;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        background-color: #007bff;
+        color: #fff;
+        font-size: 1em;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0062cc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Twitter Regex</h1>
+      <label for="regex-input"></label>
+      <textarea id="regex-input" placeholder="Enter a regular expression..."></textarea>
+      <button type="button" id="filter-button">
+        <i class="fas fa-filter"></i> Filter
+      </button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
