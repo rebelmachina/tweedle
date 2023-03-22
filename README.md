@@ -1,4 +1,9 @@
-# Twitter Regex
+<h1 align="center">Twitter Regex</h1>
+
+<p align="center">
+<img src='https://github.com/rebelzion/tweedle/blob/main/chrome_extension/icon128.png' />
+</p>
+
 
 ## 💻 UI
 
