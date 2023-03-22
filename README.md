@@ -1,6 +1,16 @@
-# tweedle
+# Twitter Regex
 
-## Setup
+## 💻 UI
+
+<p align="center">
+<img src='https://github.com/rebelzion/tweedle/blob/main/assets/popup.png'/>
+</p>
+
+<p align="center">
+<img src='https://github.com/rebelzion/tweedle/blob/main/assets/popup-regex.png'/>
+</p>
+
+## 🛠️ Setup
 
 1. Download the extension files (manifest.json, popup.html, popup.js, background.js) and save them in a directory on your computer.
 
@@ -14,7 +24,7 @@
 
 5. The "Twitter Filter" extension should now be added to your list of installed extensions.
 
-## How to use it!
+## 💡 How to use it!
 
 6. Navigate to Twitter.com in a new tab.
 
@@ -24,6 +34,6 @@
 
 9. As you scroll through your Twitter feed, the extension will automatically hide any new tweets that match the expression.
 
-## Conclusion
+## 🎉 Conclusion
 
 That's it! You can now use the "Twitter Filter" extension to filter out tweets by regular expression on Twitter.
