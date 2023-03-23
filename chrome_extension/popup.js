@@ -1,8 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
     var regexInput = document.getElementById('regex-input');
 
-    // Retrieve the last stored regex value, if any
-    chrome.storage.sync.get(['regexValue'], function (result) {
+    var excludeButton = document.getElementById('filter-button');
+    var removeButton = document.getElementById('remove-button');
+
+
+    // Retrieve the last stored regex value and is_active flag, if any
+    chrome.storage.sync.get(['regexValue', 'isActive'], function (result) {
         regexInput.value = result.regexValue || '';
     });
 
@@ -11,11 +15,15 @@ document.addEventListener('DOMContentLoaded', function () {
         chrome.storage.sync.set({ 'regexValue': regexInput.value });
     });
 
-    regexInput.addEventListener('keydown', function (event) {
-        if (event.key === 'Enter') {
-            chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
-                chrome.tabs.sendMessage(tabs[0].id, { type: 'filter_tweets', regex: regexInput.value });
-            });
-        }
+    excludeButton.addEventListener('click', function () {
+        chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+            chrome.tabs.sendMessage(tabs[0].id, { type: 'filter_tweets', regex: regexInput.value, isActive: true });
+        });
+    });
+
+    removeButton.addEventListener('click', function () {
+        chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+            chrome.tabs.sendMessage(tabs[0].id, { type: 'filter_tweets', regex: regexInput.value, isActive: false });
+        });
     });
 });

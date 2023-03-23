@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Twitter Regex",
-    "version": "1.0",
-    "description": "A Chrome extension to filter tweets based on a regular expression",
+    "name": "TwittEx",
+    "version": "0.0.0.1",
+    "description": "A Chrome extension to exclude tweets from your Twitter feed based on a regular expression.",
     "action": {
         "default_popup": "popup.html"
     },
