@@ -8,11 +8,7 @@
 ## 💻 UI
 
 <p align="center">
-<img src='https://github.com/rebelzion/tweedle/blob/main/assets/popup.png'/>
-</p>
-
-<p align="center">
-<img src='https://github.com/rebelzion/tweedle/blob/main/assets/popup-regex.png'/>
+<img src='https://github.com/rebelzion/tweedle/blob/main/assets/ui.png'/>
 </p>
 
 ## 🛠️ Setup
