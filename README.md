@@ -23,18 +23,20 @@
 
 4. Select the directory where you saved the extension files and click "Select Folder".
 
-5. The "Twitter Filter" extension should now be added to your list of installed extensions.
+5. The "TwittEx" extension should now be added to your list of installed extensions.
 
 ## 💡 How to use it!
 
 6. Navigate to Twitter.com in a new tab.
 
-7. Click on the "Twitter Filter" extension icon (a filter icon) in the toolbar to open the popup.
+7. Click on the "TwittEx" extension icon (a blue bird between curly braces) in the toolbar to open the popup.
 
-8. Enter a regular expression in the input field and click the "Filter" button to filter out tweets that match the expression.
+8. Enter a regular expression in the input field and click the "Exclude" button to filter out tweets that match the expression.
 
 9. As you scroll through your Twitter feed, the extension will automatically hide any new tweets that match the expression.
 
+10. If you want to disable the regex, go to the popup and click on "Remove Filter". 
+
 ## 🎉 Conclusion
 
-That's it! You can now use the "Twitter Filter" extension to filter out tweets by regular expression on Twitter.
+That's it! You can now use TwittEx to filter out tweets by regular expression on Twitter.
