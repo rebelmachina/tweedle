@@ -27,15 +27,15 @@
 
 ## 💡 How to use it!
 
-6. Navigate to Twitter.com in a new tab.
+1. Navigate to Twitter.com in a new tab.
 
-7. Click on the "TwittEx" extension icon (a blue bird between curly braces) in the toolbar to open the popup.
+2. Click on the "TwittEx" extension icon (a blue bird between curly braces) in the toolbar to open the popup.
 
-8. Enter a regular expression in the input field and click the "Exclude" button to filter out tweets that match the expression.
+3. Enter a regular expression in the input field and click the "Exclude" button to filter out tweets that match the expression.
 
-9. As you scroll through your Twitter feed, the extension will automatically hide any new tweets that match the expression.
+4. As you scroll through your Twitter feed, the extension will automatically hide any new tweets that match the expression.
 
-10. If you want to disable the regex, go to the popup and click on "Remove Filter". 
+5. If you want to disable the regex, go to the popup and click on "Remove Filter". 
 
 ## 🎉 Conclusion
 
