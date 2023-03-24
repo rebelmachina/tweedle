@@ -1,4 +1,5 @@
-<h1 align="center">Twitter Regex</h1>
+<h1 align="center">TwittEx</h1>
+<h3 align="center">Powerful chrome-extension to hide tweets based on regular expressions</h3>
 
 <p align="center">
 <img src='https://github.com/rebelzion/tweedle/blob/main/chrome_extension/icon128.png' />
