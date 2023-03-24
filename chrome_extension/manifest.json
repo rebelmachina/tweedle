@@ -7,22 +7,16 @@
         "default_popup": "popup.html"
     },
     "permissions": [
-        "tabs",
+        "activeTab",
+        "scripting",
         "storage"
     ],
+    "background": {
+        "service_worker": "background.js"
+    },
     "icons": {
         "16": "icon16.png",
         "32": "icon32.png",
         "128": "icon128.png"
-    },
-    "content_scripts": [
-        {
-            "matches": [
-                "https://twitter.com/*"
-            ],
-            "js": [
-                "content.js"
-            ]
-        }
-    ]
+    }
 }
