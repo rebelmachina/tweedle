@@ -41,3 +41,10 @@
 ## 🎉 Conclusion
 
 That's it! You can now use TwittEx to filter out tweets by regular expression on Twitter.
+
+## 🤗 How to Contribute
+
+1. Create an issue with the feature/bug/improvement you want to work on. (__Be succinct and descriptive in what you want to achieve and what to expect from the solving the issue.__)
+2. Fork the repository & clone it.
+4. Create a new branch for your changes.
+5. Push your changes and create the PR.
